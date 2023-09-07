@@ -4,7 +4,7 @@ let InfinityChallenge = {
     Decimal.pow(2, 24576), Decimal.pow(2, 20480), Decimal.pow(2, 22528), Decimal.pow(2, 57344),
   ],
   requirements: [Infinity,
-    Decimal.pow(2, 512), Decimal.pow(2, 20480), Decimal.pow(2, 32768), Decimal.pow(2, 36864),
+    Decimal.pow(2, 5), Decimal.pow(2, 20480), Decimal.pow(2, 32768), Decimal.pow(2, 36864),
     Decimal.pow(2, 49152), Decimal.pow(2, 53248), Decimal.pow(2, 57344), Decimal.pow(2, 61440),
   ],
   infinityChallengeButtonText(x) {
