@@ -22,10 +22,10 @@ let InfinityGenerator = function (i) {
       player.infinityGenerators[i - 1].bought += n;
     },
     costIncreasePer() {
-      return Decimal.pow(2, i);
+      return Decimal.pow(1.2, i);
     },
     initialCost() {
-      return Decimal.pow(2, Math.pow(i, 2));
+      return Decimal.pow(1.2, Math.pow(i, 1.2));
     },
     cost() {
       return this.initialCost().times(Decimal.pow(this.costIncreasePer(), this.bought()));
