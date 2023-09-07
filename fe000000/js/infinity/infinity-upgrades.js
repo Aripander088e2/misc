@@ -10,13 +10,13 @@ let InfinityUpgrade = function (i) {
       player.infinityUpgrades[i - 1] += n;
     },
     boughtLimit() {
-      return [Infinity, 8][i - 1];
+      return [Infinity, Infinity][i - 1];
     },
     costIncreasePer() {
-      return [8, 16][i - 1];
+      return [2, 4][i - 1];
     },
     effectIncreasePer() {
-      return [0.25, 0.125][i - 1];
+      return [0.5, 0.25][i - 1];
     },
     initialEffect() {
       return [2, 0.5][i - 1];
